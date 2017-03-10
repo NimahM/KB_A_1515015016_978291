@@ -1,3 +1,8 @@
+Nama	: Ni'mah Moham
+Nim	: 1515015016
+
+Tugas Modul 2 KECERDASAN BUATAN
+
 
 1.  a. Orang(dian).          = dian adalah orang.
     b. mobil(atoz).          = atoz adalah mobil.
