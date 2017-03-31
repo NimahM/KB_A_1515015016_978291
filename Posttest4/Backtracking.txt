@@ -14,8 +14,13 @@ clauses							||		Goal dari program ini adalah coverette  dengan argumen Y, itu 
   buy_car(Model,Color):-				||	untuk memperoleh hasil argumen Y.
 	car(Model,Color,Price),				||      
 	colors(Color,sexy),!,				||	Setelah itu, program akan mengidentifikasi setiap clausa yang ada mulai dari: pernyataan pertama 
+<<<<<<< HEAD
 	Price > 25000.					||	car (marseti,green,25000) ==  tidak memenuhi pernyataan yaitu bukan model corvette dan harga di sini 
 							||				   tidak sesuai dengan pernyataan price > 25000 .ini terjadi Backtracking	
+=======
+	Price > 25000.					||	car (marseti,green,25000) ==  tidak memenuhi pernyataan pada model dan harga di sini tidak sesuai 
+							||				     dengan pernyataan price > 25000 .ini terjadi Backtracking	
+>>>>>>> 07b6efdf724bc805297fe5f1d0a08acd43057321
   car(maserati,green,25000).				||	
   car(corvette,black,24000).				||	car(corvette,black,24000) ==  telah memenuhi pernyataan pada car serta model sudah sesuai dengan goal,
   car(corvette,red,26000).				||				    namun harga di sini tidak sesuai  dengan pernyataan price > 25000 .
